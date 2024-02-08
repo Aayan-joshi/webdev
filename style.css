@@ -1,37 +1,94 @@
-.parentdiv-nav {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@300&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
 
-.fb-nav {
-    align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Merienda:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    margin-left: 2vw;
+    /* temporary bg color */
+    /* background: aqua; */
+    /* position: relative; */
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
     justify-content: flex-end;
 }
 
-.circle {
-    border-radius: 51%;
-    height: 50px;
+nav ul li{
+    padding: 1vw;
+}
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
 }
 
-.name-Parent {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+main {
+    width: 90vw;
+    margin: auto;
+    height: 1800px;
+    background: cadetblue;
 }
 
-.name-sub-parent {
-    justify-content: center;
-    text-align: center;
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info_container{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
     align-content: center;
-    height: 100vh;
+    justify-content: center;
+}
+
+.mepic img{
+    height: 80vh;
+}
+
+
+.dev-info, .about{
+    /* font-family: 'Edu SA Beginner', cursive; */
+    font-size: 1.9em;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    margin: 2vh 0;
 }
 
 .name {
-    font-family: "Sofia", serif;
+    /* font-family: 'Caveat', cursive; */
+    font-weight: 800;
+    font-family: 'Merienda', cursive;
+    font-size: 3em;
 }
 
-.name-div {
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+.btn {
+    padding: 0.5vh 1vw;
+    height: 30px;
+    width: 120px;
+    border: 1px transparent;
+    border-radius: 15px;
 }
+ .btn:hover{
+    background-color: #9cdbe3;
+ }
