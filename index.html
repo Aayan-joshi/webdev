@@ -1,62 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Aayan joshi - Student | Tech | Web</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="main.css" />
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aayan joshi - Student | Tech | Web</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
+    <body>
+        <div class="page-container">
+            <header>
+                <!-- //NAVBAR -->
+                <nav class="nav">
+                    <div class="nav__border"></div>
 
-<body>
-    <header>
+                    <img src="logo.png" class="logo nav__label" />
 
-        <!-- //NAVBAR -->
-        <nav>
-            <img src="logo.png" class="logo"/>
-            
-            <!-- //NAVBAR LINKS -->
-            <ul>
-                <li><a href="index.html" rel="noopener noreferrer">Home</a></li>
-                <li><a href="About-me.html" rel="noopener noreferrer">About Me</a></li>
-                <li><a href="projects.html" rel="noopener noreferrer">Projects</a></li>
-                <li><a href="blog.html" rel="noopener noreferrer">Blog</a></li>
-                <li><a href="projects.html" rel="noopener noreferrer">CV</a></li>
-                <li><a href="contact.html" rel="noopener noreferrer">Contact Me</a></li>
+                    <a href="index.html" class="nav__link">
+                        <div class="nav__icon-container">
+                            <i class="material-icons">home</i>
+                        </div>
+                        <span class="nav__label">Home</span>
+                    </a>
 
-            </ul>
-        </nav>
-    </header>
+                    <a href="About-me.html" class="nav__link">
+                        <div class="nav__icon-container">
+                            <i class="material-icons">face</i>
+                        </div>
+                        <span class="nav__label">About Me</span>
+                    </a>
 
-    <!-- body of website -->
-    <main>
-        <div class="container">
-            <div class="Caveatner">
-                <div class="dev-info">Hello there, I am</div>
-                <div class="name">Aayan Joshi</div>
-                <div class="about">
-                    Student | Programmer | Web Developer
+                    <a href="projects.html" class="nav__link">
+                        <div class="nav__icon-container">
+                            <i class="material-icons">folder</i>
+                        </div>
+                        <span class="nav__label">Projects</span>
+                    </a>
+
+                    <a href="blog.html" class="nav__link">
+                        <div class="nav__icon-container">
+                            <i class="material-icons">message</i>
+                        </div>
+                        <span class="nav__label">Blog</span>
+                    </a>
+
+                    <a href="CV.html" class="nav__link">
+                        <div class="nav__icon-container">
+                            <i class="material-icons">description</i>
+                        </div>
+                        <span class="nav__label">CV</span>
+                    </a>
+
+                    <a href="contact.html" class="nav__link">
+                        <div class="nav__icon-container">
+                            <i class="material-icons">phone</i>
+                        </div>
+                        <span class="nav__label">Contact</span>
+                    </a>
+
+                    <div class="toggle_btn">
+                        <i class="material-icons">menu</i>
+                    </div>
+                    <!-- //NAVBAR LINKS -->
+                    <ul>
+                        <!-- <li><a href="index.html" rel="noopener noreferrer">Home</a></li>
+                    <li><a href="About-me.html" rel="noopener noreferrer">About Me</a></li>
+                    <li><a href="projects.html" rel="noopener noreferrer">Projects</a></li>
+                    <li><a href="blog.html" rel="noopener noreferrer">Blog</a></li>
+                    <li><a href="projects.html" rel="noopener noreferrer">CV</a></li>
+                    <li><a href="projects.html" rel="noopener noreferrer">Contact Me</a></li> -->
+
+                        <!-- <ul>
+                        <li><a href="index.html" rel="noopener noreferrer"><div class="material-icons">home</div</a></li>
+                        <li><a href="About-me.html" rel="noopener noreferrer"><div class="material-icons">face</div</a></li>
+                        <li><a href="projects.html" rel="noopener noreferrer"><div class="material-icons">folder</div></a></li>
+                        <li><a href="blog.html" rel="noopener noreferrer"><div class="material-icons">message</div></a></li>
+                        <li><a href="projects.html" rel="noopener noreferrer"><div class="material-icons">description</div></a></li>
+                        <li><a href="projects.html" rel="noopener noreferrer"><div class="material-icons">phone</div></a></li>
+                    </ul> -->
+                    </ul>
+
+                    <div class="dropdown_menu">
+                        <li>
+                            <a href="index.html" rel="noopener noreferrer"
+                                >Home</a
+                            >
+                        </li>
+                        <li>
+                            <a href="About-me.html" rel="noopener noreferrer"
+                                >About Me</a
+                            >
+                        </li>
+                        <li>
+                            <a href="projects.html" rel="noopener noreferrer"
+                                >Projects</a
+                            >
+                        </li>
+                        <li>
+                            <a href="blog.html" rel="noopener noreferrer"
+                                >Blog</a
+                            >
+                        </li>
+                        <li>
+                            <a href="projects.html" rel="noopener noreferrer"
+                                >CV</a
+                            >
+                        </li>
+                        <li>
+                            <a href="projects.html" rel="noopener noreferrer"
+                                >Contact Me</a
+                            >
+                        </li>
+                    </div>
+                </nav>
+            </header>
+
+            <!-- body of website -->
+            <main>
+                <div class="container">
+                    <div class="Caveatner">
+                        <div class="dev-info">Hello there, I am</div>
+                        <div class="name">Aayan Joshi</div>
+                        <div class="about">
+                            Student | Programmer | Web Developer
+                        </div>
+                        <div>
+                            <button class="btn">
+                                <a href="contact.html">Contact Me</a>
+                            </button>
+                            <button class="btn">Download CV</button>
+                            <button class="btn">
+                                <a onclick="redirectdrive()">Computer Notes</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mepic">
+                        <img src="hel-pic.png" alt="heil-hitler" />
+                    </div>
+                    
+                    
                 </div>
-                <div>
-                    <button class="btn"><a href="contact.html">Contact Me</a></button>
-                    <button class="btn">Download CV</button>
-                    <button class="btn" style="width: 10vw;"><a onclick="redirectdrive()">Computer Notes</a></button>
-                </div>
-            </div>
-            <div class="mepic">
-                <img src="hel-pic.png" alt="heil-hitler" />
-            </div>
+                <div class="responsive-pic">
+                        <img src="hel-pic.png" alt="heil-hitler"/>
+                    </div>
+            </main>
         </div>
-    </main>
-    
-    <script>
-        function redirectdrive(){
-            alert("fuck you");
-            setTimeout(e=>{
-                window.location.href = "https://drive.google.com/drive/folders/1dqb7t4z4QfFCYAtPFHfRWyAoweyaBAiY?usp=sharing";
-            }, 1000)
-        }
-    </script>
-</body>
+        <script>
+            function redirectdrive() {
+                alert("fuck you");
+                setTimeout((e) => {
+                    window.location.href =
+                        "https://drive.google.com/drive/folders/1dqb7t4z4QfFCYAtPFHfRWyAoweyaBAiY?usp=sharing";
+                }, 1000);
+            }
 
+            const toggleBtn = document.querySelector(".toggle_btn")
+            const toggleBtnIcon = document.querySelector(".toggle_btn i")
+            const dropDownMenu = document.querySelector(".dropdown_menu")
+
+            toggleBtn.onclick = (e) => {
+                dropDownMenu.classList.toggle('open')
+            }
+        </script>
+    </body>
 </html>
