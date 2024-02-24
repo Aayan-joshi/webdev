@@ -13,7 +13,8 @@
 
         <!-- //NAVBAR -->
         <nav>
-
+            <img src="logo.png" class="logo"/>
+            
             <!-- //NAVBAR LINKS -->
             <ul>
                 <li><a href="index.html" rel="noopener noreferrer">Home</a></li>
@@ -39,6 +40,7 @@
                 <div>
                     <button class="btn"><a href="contact.html">Contact Me</a></button>
                     <button class="btn">Download CV</button>
+                    <button class="btn" style="width: 10vw;"><a onclick="redirectdrive()">Computer Notes</a></button>
                 </div>
             </div>
             <div class="mepic">
@@ -46,6 +48,15 @@
             </div>
         </div>
     </main>
+    
+    <script>
+        function redirectdrive(){
+            alert("fuck you");
+            setTimeout(e=>{
+                window.location.href = "https://drive.google.com/drive/folders/1dqb7t4z4QfFCYAtPFHfRWyAoweyaBAiY?usp=sharing";
+            }, 1000)
+        }
+    </script>
 </body>
 
 </html>
